@@ -31,7 +31,7 @@ If not, then there are a couple of ways you can install SQLite.
 
 ### Manual Installation Options
 
-#### Install With Hombrew:
+#### Install With Homebrew:
 
 Via a package manager for your operating system. If you are on Mac, homebrew is the way to go. You can install it by pasting:
 
