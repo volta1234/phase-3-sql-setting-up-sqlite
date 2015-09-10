@@ -25,7 +25,7 @@ if you get back
 
 `/usr/bin/sqlite3`
 
-Then you have a working version of sqlite3 already installed on your system. Thanks Apple! Skip ahead to
+Then you have a working version of sqlite3 already installed on your system. Thanks Apple! Skip ahead to the next lesson!
 
 If not, then there are a couple of ways you can install SQLite.
 
