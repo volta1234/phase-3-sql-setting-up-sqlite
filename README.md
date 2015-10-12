@@ -55,7 +55,7 @@ If homebrew isn't working out for you, you can download one of the pre-compiled 
 Okay, let's make sure everything is up and running. In your terminal, type:
 
 ```bash
-sqlite 3 test_sqlite.db
+sqlite3 test_sqlite.db
 ```
 
 This will open a new database file called test_sqlite.db and open it in the sqlite prompt. You should see something like:
