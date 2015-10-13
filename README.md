@@ -2,14 +2,16 @@
 
 ## Objectives
 
-1. Define SQL and understand what it is used for. 
-2. Install SQL on your computer
+1. Define SQL as a language for managing data in a database.
+2. List three different relational database management systems.
+3. Install SQL on your computer
+4. Create and open a database file and table 
 
 ## What is SQL?
 
-SQL (Structured Query Language) is a language for managing data in a database. Unlike some other sorts of programming languages, it's only used for one thing: talking to databases. Thus, you might hear it referred to as a "special purpose" programming language, which is really not all that terribly important to understand beyond knowing that you won't be using SQL to write the next big web app, but you might write some to interact with the database that powers it.
+SQL (Structured Query Language) is a language for managing data in a database. Unlike some other sorts of programming languages, it's only used for one thing: talking to databases. Thus, you might hear it referred to as a "special purpose" programming language, which means that you won't be using SQL to write the next big web app, but you might use it to interact with the database that powers it.
 
-Even though SQL really only has one purpose, it is used by many different database systems you might be familiar with (don't worry if you're not) such as MySQL, PostgreSQL, or the system we'll being using in this course: SQLite. All of these are relational database management systems. 
+Even though SQL really only has one purpose, it is used by many different database systems such as MySQL, PostgreSQL, or the system we'll being using in this course: SQLite. All of these are relational database management systems. 
 
 ## Installation
 
