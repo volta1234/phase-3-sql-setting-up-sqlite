@@ -74,7 +74,7 @@ sqlite> .quit
 
 You should have created a test_sqlite.db file. Either open up the directory you are working from in finder or type `open .` into your terminal. You should see that, inside whatever directory you've been working in, you have your `test_sqlite.db` file. 
 
-**Top-Tip:** All SQL statements that you write in your terminal, inside the sqlite prompt, `sqlite3>`, *must be terminated with a semi-colon `;`*. If hit `enter` without adding a semi-colon to the end of your line, you will be trapped! Don't worry though, just add that `;` on the new line and hit `enter` again.
+**Top-Tip:** All SQL statements that you write in your terminal, inside the sqlite prompt, `sqlite3>`, *must be terminated with a semi-colon `;`*. If you hit `enter` without adding a semi-colon to the end of your line, you will be trapped! Don't worry though, just add that `;` on the new line and hit `enter` again.
 
 ## Resources
 
