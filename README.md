@@ -7,13 +7,7 @@
 3. Install SQL on your computer
 4. Create and open a database file and table 
 
-## What is SQL?
-
-SQL (Structured Query Language) is a language for managing data in a database. Unlike some other sorts of programming languages, it's only used for one thing: talking to databases. Thus, you might hear it referred to as a "special purpose" programming language, which means that you won't be using SQL to write the next big web app, but you might use it to interact with the database that powers it.
-
-Even though SQL really only has one purpose, it is used by many different database systems such as MySQL, PostgreSQL, or the system we'll being using in this course: SQLite. All of these are relational database management systems. 
-
-## Installation
+## Installing SQL
 
 ### Macs Make It Easy
 
