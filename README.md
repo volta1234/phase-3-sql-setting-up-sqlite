@@ -1,11 +1,16 @@
 # Intro to SQL
 
+## Overview
+
+We'll get started with SQL by installing and trying out SQLite. 
+
 ## Objectives
 
-1. Define SQL as a language for managing data in a database.
-2. List three different relational database management systems.
-3. Install SQL on your computer
-4. Create and open a database file and table 
+1. Check to see if SQLite is installed on your computer via a terminal command
+2. Install SQLite on your computer
+3. Create and open a database file and table 
+4. End all SQL commands using proper semicolon notation
+5. Exit out of SQLite using the .quit command
 
 ## Installing SQL
 
