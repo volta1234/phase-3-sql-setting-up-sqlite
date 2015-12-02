@@ -87,3 +87,5 @@ You should have created a test_sqlite.db file. Either open up the directory you 
 - [Homebrew](http://mxcl.github.com/homebrew/)
 - [ZetCode sqlite3](http://zetcode.com/db/sqlite/)
 
+
+<a href='https://learn.co/lessons/sql-intro-and-installation-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
