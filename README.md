@@ -34,7 +34,7 @@ If not, then there are a couple of ways you can install SQLite.
 
 #### Install With Homebrew:
 
-Via a package manager for your operating system. If you are on Mac, homebrew is the way to go. You can install it by pasting:
+Via a package manager for your operating system. If you are on Mac, Homebrew is the way to go. You can install it by pasting:
 
 ```bash
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
@@ -42,14 +42,14 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 into your terminal. The script that runs will explain what it is doing, and pause before it does it.
 
-After installing homebrew, install sqlite with:
+After installing Homebrew, install sqlite with:
 
 ```bash
 brew install sqlite
 Install From Binary
 ```
 
-If homebrew isn't working out for you, you can download one of the pre-compiled binary packages available at the [downloads page](http://www.sqlite.org/download.html). Look for your operating system, download and install the appropriate binary.
+If Homebrew isn't working out for you, you can download one of the pre-compiled binary packages available at the [downloads page](http://www.sqlite.org/download.html). Look for your operating system, download and install the appropriate binary.
 
 ## Trying it out
 
@@ -88,4 +88,6 @@ You should have created a test_sqlite.db file. Either open up the directory you 
 - [ZetCode sqlite3](http://zetcode.com/db/sqlite/)
 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-intro-and-installation-readme' title='Intro to SQL'>Intro to SQL</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/sql-intro-and-installation-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-intro-and-installation-readme'>SQL Intro and Installation</a> on Learn.co and start learning to code for free.</p>
