@@ -2,17 +2,19 @@
 
 ## Overview
 
-We'll get started with SQL by installing and trying out SQLite. 
+We'll get started with SQL by installing and trying out SQLite.
 
 ## Objectives
 
 1. Check to see if SQLite is installed on your computer via a terminal command
 2. Install SQLite on your computer
-3. Create and open a database file and table 
+3. Create and open a database file and table
 4. End all SQL commands using proper semicolon notation
 5. Exit out of SQLite using the .quit command
 
 ## Installing SQL
+
+**If you are using the Learn IDE, you don't need to install anything. We've already done this for you :)**
 
 ### Macs Make It Easy
 
@@ -77,7 +79,7 @@ sqlite> create table test_table(id);
 sqlite> .quit
 ```
 
-You should have created a test_sqlite.db file. Either open up the directory you are working from in finder or type `open .` into your terminal. You should see that, inside whatever directory you've been working in, you have your `test_sqlite.db` file. 
+You should have created a test_sqlite.db file. Either open up the directory you are working from in finder or type `open .` into your terminal. You should see that, inside whatever directory you've been working in, you have your `test_sqlite.db` file.
 
 **Top-Tip:** All SQL statements that you write in your terminal, inside the sqlite prompt, `sqlite3>`, *must be terminated with a semi-colon `;`*. If you hit `enter` without adding a semi-colon to the end of your line, you will be trapped! Don't worry though, just add that `;` on the new line and hit `enter` again. The only command that *doesn't* require, and in fact doesn't even work with, a `;` is the `.quit` command.
 
@@ -89,5 +91,3 @@ You should have created a test_sqlite.db file. Either open up the directory you 
 
 
 <a href='https://learn.co/lessons/sql-intro-and-installation-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-intro-and-installation-readme'>SQL Intro and Installation</a> on Learn.co and start learning to code for free.</p>
