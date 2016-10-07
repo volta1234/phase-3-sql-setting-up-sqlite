@@ -28,7 +28,7 @@ if you get back
 
 `/usr/bin/sqlite3`
 
-Then you have a working version of sqlite3 already installed on your system. Thanks Apple! Skip ahead to the next lesson!
+Then you have a working version of sqlite3 already installed on your system. Thanks Apple! Skip ahead to the 'Trying it out' section below!
 
 If not, then there are a couple of ways you can install SQLite.
 
@@ -91,3 +91,5 @@ You should have created a test_sqlite.db file. Either open up the directory you 
 
 
 <a href='https://learn.co/lessons/sql-intro-and-installation-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sql-intro-and-installation-readme'>SQL Intro and Installation</a> on Learn.co and start learning to code for free.</p>
