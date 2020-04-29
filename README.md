@@ -53,7 +53,9 @@ Install From Binary
 
 If Homebrew isn't working out for you, you can download one of the pre-compiled binary packages available at the [downloads page](http://www.sqlite.org/download.html). Look for your operating system, download and install the appropriate binary.
 
-> **Note:** If you are receiving an error when trying to install SQLite, make sure the Xcode Command-Line Tools have properly > installed. Try running `xcode-select --install` to resolve this issue.
+> **Note:** If you are receiving an error when trying to install SQLite, make 
+> sure the Xcode Command-Line Tools have properly installed. Try running 
+> `xcode-select --install` to resolve this issue.
 
 ## Trying it out
 
