@@ -14,7 +14,7 @@ We'll get started with SQL by installing and trying out SQLite.
 
 ## Installing SQL
 
-**If you are using the Learn IDE, you don't need to install anything. We've already done this for you :)**
+If you are using the Learn IDE, you don't need to install anything. We've already done this for you :)
 
 ### Macs Make It Easy
 
