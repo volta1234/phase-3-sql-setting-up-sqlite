@@ -92,8 +92,3 @@ You should have created a test_sqlite.db file. Either open up the directory you 
 - [SQLite Documentation](http://www.sqlite.org/docs.html)
 - [Homebrew](http://mxcl.github.com/homebrew/)
 - [ZetCode sqlite3](http://zetcode.com/db/sqlite/)
-
-
-<a href='https://learn.co/lessons/sql-intro-and-installation-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/sql-intro-and-installation-readme'>SQL Intro and Installation</a> on Learn.co and start learning to code for free.</p>
