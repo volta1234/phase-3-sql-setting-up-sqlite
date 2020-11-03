@@ -18,7 +18,8 @@ If you are using the Learn IDE, you don't need to install anything. We've alread
 
 ### Macs Make It Easy
 
-If you are on OSX version 10.4 or greater, you probably already have SQLite installed. Find out by opening up the terminal and pasting in:
+If you are on OSX version 10.4 or greater, you probably already have SQLite
+installed. Find out by opening up the terminal and running:
 
 ```bash
 which sqlite3
@@ -28,7 +29,8 @@ if you get back
 
 `/usr/bin/sqlite3`
 
-Then you have a working version of sqlite3 already installed on your system. Thanks Apple! Skip ahead to the 'Trying it out' section below!
+Then you have a working version of sqlite3 already installed on your system.
+Thanks Apple! Skip ahead to the 'Trying it out' section below!
 
 If not, then there are a couple of ways you can install SQLite.
 
@@ -36,25 +38,28 @@ If not, then there are a couple of ways you can install SQLite.
 
 #### Install With Homebrew:
 
-Via a package manager for your operating system. If you are on Mac, Homebrew is the way to go. You can install it by pasting:
+You can install SQLite using a package manager for your operating system. If you
+are on Mac, Homebrew is the way to go. To install Homebrew run the following:
 
 ```bash
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
 
-into your terminal. The script that runs will explain what it is doing, and pause before it does it.
+The script that runs will explain what it is doing, and pause before it does it.
 
-After installing Homebrew, install sqlite with:
+After installing Homebrew, install SQLite with:
 
 ```bash
 brew install sqlite
-Install From Binary
 ```
 
-If Homebrew isn't working out for you, you can download one of the pre-compiled binary packages available at the [downloads page](http://www.sqlite.org/download.html). Look for your operating system, download and install the appropriate binary.
+#### Install From Binary:
 
-> **Note:** If you are receiving an error when trying to install SQLite, make 
-> sure the Xcode Command-Line Tools have properly installed. Try running 
+If Homebrew isn't working out for you, you can download one of the pre-compiled
+binary packages available at the [downloads page](http://www.sqlite.org/download.html). Look for your operating system, download and install the appropriate binary.
+
+> **Note:** If you are receiving an error when trying to install SQLite, make
+> sure the Xcode Command-Line Tools have properly installed. Try running
 > `xcode-select --install` to resolve this issue.
 
 ## Trying it out
@@ -65,27 +70,43 @@ Okay, let's make sure everything is up and running. In your terminal, type:
 sqlite3 test_sqlite.db
 ```
 
-This will open a new database file called test_sqlite.db and open it in the sqlite prompt. You should see something like:
+This will create a new database file called test_sqlite.db and open it in the
+sqlite prompt. You should see something like:
 
 ```bash
 SQLite version 3.7.12 2013-03-19 12:42:02
 Enter ".help" for instructions
-Enter SQL statements terminated with a ";"
 sqlite>
 ```
 
-You are now looking at the sqlite prompt.
+If you have the directory you're working in open in your code editor, you should
+also see the new file in your file tree.
 
-Let's create a database table called "Test Table":
+You are now looking at the sqlite prompt and can now run SQL statements and
+commands. Let's create a database table called "test_table":
 
 ```bash
 sqlite> create table test_table(id);
-sqlite> .quit
 ```
 
-You should have created a test_sqlite.db file. Either open up the directory you are working from in finder or type `open .` into your terminal. You should see that, inside whatever directory you've been working in, you have your `test_sqlite.db` file.
+This command creates the table inside the test_sqlite.db database file. To
+verify that the table was created, run the following command:
 
-**Top-Tip:** All SQL statements that you write in your terminal, inside the sqlite prompt, `sqlite3>`, *must be terminated with a semi-colon `;`*. If you hit `enter` without adding a semi-colon to the end of your line, you will be trapped! Don't worry though, just add that `;` on the new line and hit `enter` again. The only command that *doesn't* require, and in fact doesn't even work with, a `;` is the `.quit` command.
+```bash
+sqlite> .tables
+```
+
+You should see the table listed.
+
+To exit sqlite, type `.quit` at the sqlite prompt.
+
+**Top-Tip:** All SQL statements that you write in your terminal, inside the
+sqlite prompt, `sqlite>`, *must be terminated with a semi-colon `;`*. If you hit
+`enter` without adding a semi-colon to the end of your line, you will be
+trapped! Don't worry though, just add that `;` on the new line and hit `enter`
+again. Note, however, that this does not apply to sqlite commands that begin
+with a `.` such as `.quit` and `.tables`. These commands will *not work* if you
+add the semi-colon.
 
 ## Resources
 
