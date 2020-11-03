@@ -79,9 +79,6 @@ Enter ".help" for instructions
 sqlite>
 ```
 
-If you have the directory you're working in open in your code editor, you should
-also see the new file in your file tree.
-
 You are now looking at the sqlite prompt and can now run SQL statements and
 commands. Let's create a database table called "test_table":
 
@@ -96,7 +93,9 @@ verify that the table was created, run the following command:
 sqlite> .tables
 ```
 
-You should see the table listed.
+You should see the table listed. If you have the directory you're working in
+open in your code editor, you should also see the database file in your file
+tree.
 
 To exit sqlite, type `.quit` at the sqlite prompt.
 
