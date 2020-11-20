@@ -1,4 +1,4 @@
-# Intro to SQL
+# Setting up SQLite
 
 ## Overview
 
