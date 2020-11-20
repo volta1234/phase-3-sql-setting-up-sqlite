@@ -16,7 +16,7 @@ We'll get started with SQL by installing and trying out SQLite.
 
 If you are using the Learn IDE, you don't need to install anything. We've already done this for you :)
 
-### Macs Make It Easy
+### MacOS
 
 If you are on OSX version 10.4 or greater, you probably already have SQLite
 installed. Find out by opening up the terminal and running:
@@ -34,7 +34,7 @@ Thanks Apple! Skip ahead to the 'Trying it out' section below!
 
 If not, then there are a couple of ways you can install SQLite.
 
-### Manual Installation Options
+### MacOS Manual Installation Options
 
 #### Install With Homebrew:
 
@@ -61,6 +61,19 @@ binary packages available at the [downloads page](http://www.sqlite.org/download
 > **Note:** If you are receiving an error when trying to install SQLite, make
 > sure the Xcode Command-Line Tools have properly installed. Try running
 > `xcode-select --install` to resolve this issue.
+
+### WSL Manual Installation Instructions
+
+Below are the steps for installing SQLite on the Windows Sub-system for Linux:
+
+1. Open your WSL terminal
+2. Update your Ubuntu packages: `sudo apt update`
+3. Once the packages have updated, install SQLite3 with: `sudo apt install sqlite3`
+4. Confirm installation and get the version number: `sqlite3 --version`
+
+For additional information, check out [this article on getting started with databases in WSL][wsl]
+
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-sqlite
 
 ## Trying it out
 
