@@ -1,20 +1,14 @@
 # Setting up SQLite
 
-## Overview
+## Learning Goals
 
-We'll get started with SQL by installing and trying out SQLite.
-
-## Objectives
-
-1. Check to see if SQLite is installed on your computer via a terminal command
-2. Install SQLite on your computer
-3. Create and open a database file and table
-4. End all SQL commands using proper semicolon notation
-5. Exit out of SQLite using the .quit command
+- Check to see if SQLite is installed on your computer via a terminal command
+- Install SQLite on your computer
+- Create and open a database file and table
+- End all SQL commands using proper semicolon notation
+- Exit out of SQLite using the .quit command
 
 ## Installing SQL
-
-If you are using the Learn IDE, you don't need to install anything. We've already done this for you :)
 
 ### MacOS
 
