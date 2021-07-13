@@ -168,17 +168,17 @@ use without even leaving our text editor is the
 
 To use it, first right-click on the `chinook.db` file, then select "Open database":
 
-![Opening a database in SQLite Extension]()
+![Opening a database in SQLite Extension](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/vscode-open-database.png)
 
 This will create a new "SQLITE EXPLORER" menu within VSCode, below the file tree:
 
-![Locating the SQLite Explorer in VSCode]()
+![Locating the SQLite Explorer in VSCode](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/vscode-explore-database.png)
 
-Clicking the play button () next to any of the tables will open a new tab in
+Clicking the play button (▸) next to any of the tables will open a new tab in
 VSCode where you can see an output of all the rows in that table in a
 spreadsheet-like format:
 
-![Viewing tables in SQLite Extension]()
+![Viewing tables in SQLite Extension](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/vscode-view-table.png)
 
 ### Using DB Browser for SQLite
 
@@ -186,16 +186,16 @@ spreadsheet-like format:
 
 First, open the DB Browser for SQLite application:
 
-![Open DB Browser in OSX]()
+![Open DB Browser in OSX](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/osx-open-db-browser.png)
 
 Then, select "Open Database":
 
-![Open database in DB Browser in OSX]()
+![Open database in DB Browser in OSX](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/osx-open-database.png)
 
 Finally, navigate to the directory where you cloned this lesson, and select the
 `chinook.db` file:
 
-![Open chinook.db file in DB Browser in OSX]()
+![Open chinook.db file in DB Browser in OSX](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/osx-open-database-select-file.png)
 
 #### DB Browser in WSL
 
@@ -214,29 +214,64 @@ explorer.exe .
 
 This will open the current directory in Windows File Explorer:
 
-![Open WSL Directory in File Explorer]()
+![Open WSL Directory in File Explorer](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/wsl-explorer.png)
 
 Then, **copy** the `chinook.db` file to any folder in your Windows file system,
 like the Desktop folder:
 
-![Copy database to desktop]()
+![Copy database to desktop](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/wsl-desktop.png)
 
 Now, open the DB Browser for SQLite application:
 
-![Open DB Browser in WSL]()
+![Open DB Browser in WSL](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/wsl-open-db-browser.png)
 
 Then, select "Open Database":
 
-![Open database in DB Browser in WSL]()
+![Open database in DB Browser in WSL](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/wsl-open-database.png)
 
 Finally, navigate to the directory where you copied the database, and select the
 `chinook.db` file:
 
-![Open chinook.db file in DB Browser in WSL]()
+![Open chinook.db file in DB Browser in WSL](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/wsl-open-database-select-file.png)
 
 #### Exploring the Database
 
-tk
+Once you've opened the database in DB Browser for SQLite, you can more easily
+explore all the different tables and the data contained within. For example, you
+can view a list of all tables in the database:
+
+![View tables in DB Browser](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/db-browser-view-tables.png)
+
+You can also view all the data from an individual table:
+
+![View one table in DB Browser](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/db-browser-browse-data.png)
+
+You can even run SQL code directly in DB Browser!
+
+![Run SQL in DB Browser](https://curriculum-content.s3.amazonaws.com/phase-3/sql-setting-up-sqlite/db-browser-run-sql.png)
+
+## Conclusion
+
+You now have three tools at your disposal for interacting with a SQLite database:
+
+- The `sqlite3` command line interface (CLI) tool
+  - **Pros**: easy to run quick commands from the terminal
+  - **Cons**: harder to memorize the syntax, and no graphical representation of
+    the data
+- The SQLite VSCode extension
+  - **Pros**: built into the text editor, and easy to see a graphical
+    representation of the data
+  - **Cons**: fewer features than the CLI tool or DB Browser
+- DB Browser for SQLite
+  - **Pros**: can run SQL commands, AND has a graphical representation of the data
+  - **Cons**: more work to load a separate application (especially for WSL
+    users)
+
+As you work through the coming lessons and familiarize yourself with SQL
+databases, make sure to take advantage of each of these tools. The more
+comfortable you get working with the tools, the easier you'll find it to
+understand the underlying concepts of this section and gain proficiency with
+SQL.
 
 ## Resources
 
