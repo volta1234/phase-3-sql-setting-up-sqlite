@@ -199,7 +199,29 @@ Finally, navigate to the directory where you cloned this lesson, and select the
 
 #### DB Browser in WSL
 
-First, open the DB Browser for SQLite application:
+**NOTE:** There are limitations to using DB Browser with files in a WSL
+environment. This is a
+[known issue](https://github.com/sqlitebrowser/sqlitebrowser/issues/2142) to the
+developers of DB Browser. You will need to copy the database file out of your
+WSL file system and into the Windows file system in order to open it in DB
+Browser.
+
+To locate the database file in the WSL file system, from your terminal, type:
+
+```sh
+explorer.exe .
+```
+
+This will open the current directory in Windows File Explorer:
+
+![Open WSL Directory in File Explorer]()
+
+Then, **copy** the `chinook.db` file to any folder in your Windows file system,
+like the Desktop folder:
+
+![Copy database to desktop]()
+
+Now, open the DB Browser for SQLite application:
 
 ![Open DB Browser in WSL]()
 
@@ -207,7 +229,7 @@ Then, select "Open Database":
 
 ![Open database in DB Browser in WSL]()
 
-Finally, navigate to the directory where you cloned this lesson, and select the
+Finally, navigate to the directory where you copied the database, and select the
 `chinook.db` file:
 
 ![Open chinook.db file in DB Browser in WSL]()
