@@ -106,7 +106,7 @@ In your terminal, type:
 sqlite3 chinook.db
 ```
 
-This will open the `chinook.rb` file in the SQLite prompt. You should see
+This will open the `chinook.db` file in the SQLite prompt. You should see
 something like:
 
 ```bash
