@@ -30,7 +30,7 @@ all the data in this file using a couple different tools.
 If you are on OSX version 10.4 or greater, you probably already have SQLite
 installed. Find out by opening up the terminal and running:
 
-```sh
+```console
 $ which sqlite3
 /usr/bin/sqlite3
 ```
@@ -46,8 +46,8 @@ If not, then there are a couple of ways you can install SQLite.
 You can install SQLite using Homebrew, which your should have installed as part
 of your Flatiron environment setup. Install SQLite with:
 
-```bash
-brew install sqlite
+```console
+$ brew install sqlite
 ```
 
 #### OSX: Install From Binary
@@ -106,30 +106,26 @@ database using both SQLite in the terminal as well as the VSCode extension.
 
 In your terminal, type:
 
-```bash
-sqlite3 chinook.db
+```console
+$ sqlite3 chinook.db
 ```
 
 This will open the `chinook.db` file in the SQLite prompt. You should see
 something like:
 
-```bash
+```console
 SQLite version 3.7.12 2013-03-19 12:42:02
 Enter ".help" for instructions
 sqlite>
 ```
 
 You are now looking at the SQLite prompt and can now run SQL statements and
-commands. Let's explore the data from one of the tables in this database:
+commands. Let's explore the data from one of the tables in this database. This
+command retrieves all the data from the `artists` table inside the `chinook.db`
+database file:
 
-```bash
+```console
 sqlite> SELECT * FROM artists;
-```
-
-This command retrieves all the data from the `artists` table inside the
-`chinook.db` database file:
-
-```txt
 1|AC/DC
 2|Accept
 3|Aerosmith
@@ -140,13 +136,8 @@ This command retrieves all the data from the `artists` table inside the
 We'll talk more about the `SELECT` syntax in coming lessons. You can also view a
 list of all the tables:
 
-```bash
+```console
 sqlite> .tables
-```
-
-You should see the table listed:
-
-```txt
 albums          employees       invoices        playlists
 artists         genres          media_types     tracks
 customers       invoice_items   playlist_track
@@ -212,8 +203,8 @@ Browser.
 
 To locate the database file in the WSL file system, from your terminal, type:
 
-```sh
-explorer.exe .
+```console
+$ explorer.exe .
 ```
 
 This will open the current directory in Windows File Explorer:
