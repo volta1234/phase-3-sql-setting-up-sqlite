@@ -43,7 +43,7 @@ If not, then there are a couple of ways you can install SQLite.
 
 #### OSX: Install With Homebrew
 
-You can install SQLite using Homebrew, which your should have installed as part
+You can install SQLite using Homebrew, which you should have installed as part
 of your Flatiron environment setup. Install SQLite with:
 
 ```console
